@@ -1,11 +1,4 @@
-#from selenium import webdriver
 
-#driver = webdriver.Chrome(executable_path='C:/Users/shyju/Documents/webscrappy/chromedriver.exe')
-#driver.get("https://login.pearson.com/v1/piapi/piui/signin?client_id=dN4bOBG0sGO9c9HADrifwQeqma5vjREy&okurl=https:%2F%2Fportal.mypearson.com%2Fcourse-home&siteid=8313")
-
-#login = driver.find_element_by_xpath("//input[@name='username']").send_keys("602884cj")
-#password = driver.find_element_by_xpath("//input[@type='password']").send_keys("947094Cj")
-#submit = driver.find_element_by_xpath("//button[@type='submit']").click()
 from time import time, sleep
 import plotly.graph_objs as go
 import yfinance as yf
